@@ -9,8 +9,8 @@ import Settings from './Settings';
 import Card from './Card';
 
 function ProtectedContent() {
-  const { user, isLoggedIn } = useUser();
-  const { isDark } = useTheme();
+  const { user, isLoggedIn } = useUser(); // UserContext
+  const { isDark } = useTheme(); // ThemeContext
   const [currentPage, setCurrentPage] = useState('dashboard');
 
   if (!isLoggedIn) {

@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import ProtectedContent from './components/ProtectedContent';
 import './App.css';
 
+/* HOOKING INTO THEME CONTEXT */
 function AppContent() {
   const { isDark } = useTheme();
 
@@ -25,6 +26,7 @@ function AppContent() {
   );
 }
 
+/* NESTING CONTEXT PROVIDERS */
 function App() {
   return (
     <ThemeProvider>
