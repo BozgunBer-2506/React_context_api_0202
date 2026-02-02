@@ -1,5 +1,20 @@
 # React Context API - Komplett Projekt
 
+## Projektübersicht
+
+Dieses Projekt ist eine praktische Übung zum Erlernen der **React Context API**.
+
+### Lernziele dieser Übung:
+
+* **Das Prop Drilling Problem:** Verstehen, warum das Weitergeben von Daten durch viele Ebenen unübersichtlich ist.
+* **Context erstellen:** Mit `createContext` einen gemeinsamen Daten-Pool anlegen.
+* **Provider einrichten:** Daten für den gesamten Komponentenbaum verfügbar machen.
+* **Context konsumieren:** Mit dem `useContext` Hook direkt auf Daten zugreifen.
+* **Props vs. Context:** Wissen, wann welcher Ansatz am besten geeignet ist.
+* **Praktische Anwendung:** Umsetzung eines Theme-Switchers (Dark/Light Mode).
+
+🔗 **[Live Demo](https://react-context-api-0202.vercel.app/)**
+
 ## 🎯 Was wurde gebaut?
 
 Eine vollständige React-Anwendung mit:
@@ -120,3 +135,13 @@ src/
 5. Role-based Access Control
 6. Component Composition
 7. Props vs Context
+
+---
+
+<div align="center">
+
+### 😊 Happy Learning!
+
+⚖️ Licensed under **MIT** | 🚀 Crafted by **The_Bozgun** 2026
+
+</div>
